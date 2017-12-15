@@ -1,11 +1,11 @@
 /* vim: set ai et ts=4 sw=4: */
 `default_nettype none
 
-module top(input logic clk, output logic pin13);
+module top(input logic pin3_clk_16mhz, output logic pin13);
     logic [24:0] divider = 0;
     logic led_state = 1;
    
-    always @(posedge clk)
+    always @(posedge pin3_clk_16mhz)
     begin
         if(divider == 8000000) 
         begin
