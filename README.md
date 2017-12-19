@@ -13,3 +13,12 @@ sudo pip2 install tinyfpgab
 execute `tinyfpgab -b` once or twice to load the last configuration. When
 plugging the board into a power bank the last configuration will be loaded
 automatically.
+
+Recommended tutorials:
+
+* [Open FPGA Verilog Tutoral][t1]
+* [Go Board Tutorials][t2]
+
+
+[t1]: https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki
+[t2]: https://www.nandland.com/goboard/index.html
